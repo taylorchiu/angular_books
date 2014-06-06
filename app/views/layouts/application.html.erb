@@ -8,7 +8,10 @@
 </head>
 <body ng-app="BookApp">
 
-<%= yield %>
+<!-- we don't need a yield anymore -->
+<!-- instead, we need angular's version of a yield, ng-view -->
+	<div ng-view>
+	</div>
 
 </body>
 </html>
